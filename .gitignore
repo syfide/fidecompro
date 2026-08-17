@@ -1,0 +1,27 @@
+# Compilados de Java
+*.class
+out/
+build/
+dist/
+
+# Base de datos propia (archivos de datos generados en tiempo de ejecución)
+data/
+
+# Facturas exportadas
+facturas/
+
+# NetBeans
+nbproject/private/
+nbbuild/
+nbdist/
+.nb-gradle/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+sources.txt
+
+# Archivos con credenciales - NO subir a GitHub
+contraseña*.txt
+password*.txt
+credenciales*.txt
